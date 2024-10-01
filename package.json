@@ -1,15 +1,16 @@
 {
-  "name": "haxball-server", // Nombre del proyecto
-  "version": "1.0.0", // Versión del proyecto
-  "description": "Servidor para Haxball", // Descripción
-  "main": "index.js", // Archivo principal
+  "name": "haxball-room",
+  "version": "1.0.0",
+  "description": "Un servidor de Haxball",
+  "main": "index.js",
   "scripts": {
-    "start": "node index.js" // Comando para iniciar el servidor
+    "start": "node index.js"
   },
   "dependencies": {
-    "haxball": "^0.1.0" // Dependencias (ejemplo, ajusta según sea necesario)
+    "haxball": "^0.2.1" // Cambia esto si tienes otra dependencia específica
   },
   "engines": {
-    "node": "14.x" // Versión de Node.js
-  }
+    "node": "14.x"
+  },
+  "license": "MIT"
 }
