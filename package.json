@@ -1,0 +1,15 @@
+{
+  "name": "haxball-server", // Nombre del proyecto
+  "version": "1.0.0", // Versión del proyecto
+  "description": "Servidor para Haxball", // Descripción
+  "main": "index.js", // Archivo principal
+  "scripts": {
+    "start": "node index.js" // Comando para iniciar el servidor
+  },
+  "dependencies": {
+    "haxball": "^0.1.0" // Dependencias (ejemplo, ajusta según sea necesario)
+  },
+  "engines": {
+    "node": "14.x" // Versión de Node.js
+  }
+}
